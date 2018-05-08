@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/workplace/verilog/FULL_ADDER/FULL_ADDER.xst" -ofn "D:/workplace/verilog/FULL_ADDER/FULL_ADDER.syr" 
+xst -intstyle ise -ifn "D:/workplace/verilog/FULL_ADDER/FULL_ADDER.xst" -ofn "D:/workplace/verilog/FULL_ADDER/FULL_ADDER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FULL_ADDER_IC.ucf -p xc6slx16-csg324-3 FULL_ADDER.ngc FULL_ADDER.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FULL_ADDER_IC.ucf -p xc6slx16-csg324-3 FULL_ADDER.ngc FULL_ADDER.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FULL_ADDER_map.ncd FULL_ADDER.ngd FULL_ADDER.pcf 
+par -w -intstyle ise -ol high -mt off FULL_ADDER_map.ncd FULL_ADDER.ncd FULL_ADDER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FULL_ADDER.twx FULL_ADDER.ncd -o FULL_ADDER.twr FULL_ADDER.pcf -ucf FULL_ADDER_IC.ucf 
+bitgen -intstyle ise -f FULL_ADDER.ut FULL_ADDER.ncd 

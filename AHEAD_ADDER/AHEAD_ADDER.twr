@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml AHEAD_ADDER.twx AHEAD_ADDER.ncd -o AHEAD_ADDER.twr
+AHEAD_ADDER.pcf -ucf AHEAD_ADDER_IC.ucf
+
+Design file:              AHEAD_ADDER.ncd
+Physical constraint file: AHEAD_ADDER.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+AA_A<0>        |AA_C_4         |    6.962|
+AA_A<0>        |AA_F<0>        |    7.318|
+AA_A<0>        |AA_F<1>        |    7.396|
+AA_A<0>        |AA_F<2>        |    7.502|
+AA_A<0>        |AA_F<3>        |    7.996|
+AA_A<1>        |AA_C_4         |    7.148|
+AA_A<1>        |AA_F<1>        |    7.716|
+AA_A<1>        |AA_F<2>        |    7.771|
+AA_A<1>        |AA_F<3>        |    8.182|
+AA_A<2>        |AA_C_4         |    6.849|
+AA_A<2>        |AA_F<2>        |    7.633|
+AA_A<2>        |AA_F<3>        |    7.208|
+AA_A<3>        |AA_C_4         |    7.280|
+AA_A<3>        |AA_F<3>        |    7.637|
+AA_B<0>        |AA_C_4         |    7.713|
+AA_B<0>        |AA_F<0>        |    7.946|
+AA_B<0>        |AA_F<1>        |    8.024|
+AA_B<0>        |AA_F<2>        |    8.378|
+AA_B<0>        |AA_F<3>        |    8.747|
+AA_B<1>        |AA_C_4         |    7.466|
+AA_B<1>        |AA_F<1>        |    7.651|
+AA_B<1>        |AA_F<2>        |    7.661|
+AA_B<1>        |AA_F<3>        |    8.500|
+AA_B<2>        |AA_C_4         |    7.083|
+AA_B<2>        |AA_F<2>        |    7.867|
+AA_B<2>        |AA_F<3>        |    7.469|
+AA_B<3>        |AA_C_4         |    7.620|
+AA_B<3>        |AA_F<3>        |    7.722|
+AA_C_0         |AA_C_4         |   11.154|
+AA_C_0         |AA_F<0>        |   11.753|
+AA_C_0         |AA_F<1>        |   11.831|
+AA_C_0         |AA_F<2>        |   11.798|
+AA_C_0         |AA_F<3>        |   12.188|
+---------------+---------------+---------+
+
+
+Analysis completed Sat May 05 10:49:53 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4574 MB
+
+
+
