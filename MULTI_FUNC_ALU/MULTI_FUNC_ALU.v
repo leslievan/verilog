@@ -4,7 +4,7 @@
 // Engineer: 
 // 
 // Create Date:    00:43:02 05/05/2018 
-// Design Name: 
+// Design Name:	
 // Module Name:    MULTI_FUNC_ALU 
 // Project Name: 
 // Target Devices: 
@@ -19,17 +19,12 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module MULTI_FUNC_ALU(
-	input				ALU_clk,
 	input		[2:0]	ALU_OP,
 	input		[2:0]	ALU_data_SW,
-	input				ALU_result_switch,
-	output		[3:0]	ALU_DD_AN,
-	output		[7:0]	ALU_DD_seg,
+	output		[31:0]	ALU_result,
 	output				ALU_overflow_flag,
 	output				ALU_zero_flag
-    );
-	reg			[15:0]	ALU_result_half;
-	reg			[31:0]	ALU_result;
+	);
 	reg			[31:0]	ALU_data_A;
 	reg			[31:0]	ALU_data_B;
 	reg					ALU_overflow_sig;
@@ -39,7 +34,8 @@ module MULTI_FUNC_ALU(
 	assign ALU_zero_flag = |ALU_result;
 	assign ALU_overflow_flag = (ALU_overflow_sig^ALU_result[31]) && ALU_OP[2] 
 							&& !ALU_OP[1];
-	
+	//zero flag and overflow flag
+
 	always@(ALU_data_SW)
 	case(ALU_data_SW)
 		3'b000: begin ALU_data_A = 32'h0000_0000; ALU_data_B = 32'h0000_0000; end
@@ -67,14 +63,5 @@ module MULTI_FUNC_ALU(
 		default: ALU_result = 32'h0000_0000;
 	endcase
 	//output result
-	
-	always@(*)
-	if (ALU_result_switch == 0)
-		ALU_result_half = ALU_result[15:0];
-	else
-		ALU_result_half = ALU_result[31:16];
-	
-	DIGITRON_DISPLAY DIGI_DIS(.Digi_Dis_clk_100MHz(ALU_clk),
-					.Digi_Dis_data(ALU_result_half), .Digi_Dis_AN(ALU_DD_AN),
-					.Digi_Dis_seg(ALU_DD_seg));
+
 endmodule

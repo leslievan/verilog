@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module DIGITRON_DISPLAY(
-	input			Digi_Dis_clk_100MHz,
+	input			Digi_Dis_clk,
 	input	[15:0]	Digi_Dis_data,
 	output	[3:0]	Digi_Dis_AN,
 	output	[7:0]	Digi_Dis_seg
@@ -27,19 +27,13 @@ module DIGITRON_DISPLAY(
 	wire	[1:0]	Digi_Dis_bit_sel;
 	wire	[3:0]	Digi_Dis_code;
 	
-	DATA_SELECT DATA_SEL_1(.Data_Sel_sel(Digi_Dis_bit_sel),
-					.Data_Sel_data_D(Digi_Dis_data[15:12]),
-					.Data_Sel_data_C(Digi_Dis_data[11:8]),
-					.Data_Sel_data_B(Digi_Dis_data[7:4]),
-					.Data_Sel_data_A(Digi_Dis_data[3:0]),
-					.Data_Sel_xo(Digi_Dis_code));
-	DATA_SELECT DATA_SEL_2(.Data_Sel_sel(Digi_Dis_bit_sel),
-					.Data_Sel_data_D(4'b0111),
-					.Data_Sel_data_C(4'b1011), .Data_Sel_data_B(4'b1101),
-					.Data_Sel_data_A(4'b1110), .Data_Sel_xo(Digi_Dis_AN));
+	DATA_SELECT DATA_SEL_1(.Data_Sel_sel(Digi_Dis_bit_sel), .Data_Sel_data_D(Digi_Dis_data[15:12]),
+		.Data_Sel_data_C(Digi_Dis_data[11:8]), .Data_Sel_data_B(Digi_Dis_data[7:4]), 
+		.Data_Sel_data_A(Digi_Dis_data[3:0]), .Data_Sel_xo(Digi_Dis_code));
+	DATA_SELECT DATA_SEL_2(.Data_Sel_sel(Digi_Dis_bit_sel), .Data_Sel_data_D(4'b0111), .Data_Sel_data_C(4'b1011),
+		.Data_Sel_data_B(4'b1101), .Data_Sel_data_A(4'b1110), .Data_Sel_xo(Digi_Dis_AN));
 	DECODE DECODER(.D_code_xi(Digi_Dis_code), .D_code_xo(Digi_Dis_seg));
-	DIGITRON_SELECT DIGI_SEL(.Digi_Sel_clk(Digi_Sel_clk), .Digi_Sel_reset(),
-							.Digi_Sel_xo(Digi_Dis_bit_sel));
+	DIGITRON_SELECT DIGI_SEL(.Digi_Sel_clk(Digi_Dis_clk), .Digi_Sel_reset(), .Digi_Sel_xo(Digi_Dis_bit_sel));
 
 endmodule
 
