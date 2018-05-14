@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    19:45:09 05/08/2018 
+// Create Date:    21:17:57 05/14/2018 
 // Design Name: 
 // Module Name:    MULTI_FUNC_ALU_UNIT 
 // Project Name: 
@@ -19,23 +19,26 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module MULTI_FUNC_ALU_UNIT(
-    input           MFAU_clk,
-    input   [2:0]   MFAU_ALU_OP
-    input   [2:0]   MFAU_ALU_data_SW,
-    input           MFAU_DD_result_SW,
-    output          MFAU_ALU_zero_flag,
-    output          MFAU_ALU_overflow_flag,
-    output  [3:0]   MFAU_DD_AN,
-    output  [7:0]   MFAU_DD_seg
+    input       [2:0]   MULTI_FUNC_ALU_UNIT_OP_xi,
+    input       [2:0]   MULTI_FUNC_ALU_UNIT_data_SW_xi,
+    input       [2:0]   MULTI_FUNC_ALU_UNIT_LED_SW_xi,
+    output      [7:0]   MULTI_FUNC_ALU_UNIT_LED_xo
     );
-    wire    [31:0]  MFAU_ALU_result;
-    wire    [15:0]  MFAU_ALU_result_half;
-
-    MULTI_FUNC_ALU MFA(.AUL_OP(MFAU_ALU_OP), .ALU_data_SW(MFAU_ALU_data_SW, .ALU_result(MFAU_ALU_result)),
-        .ALU_overflow_flag(MFAU_ALU_overflow_flag), .ALU_zero_flag(MFAU_ALU_zero_flag));
-    DIGITRON_DISPLAY DD(.Digi_Dis_clk(MFAU_clk), .Digi_Dis_data(MFAU_ALU_result_half), .Digi_Dis_AN(MFAU_DD_AN)
-        .Digi_Dis_seg(MFAU_DD_seg));
-   
-
+    wire        [31:0]  MULTI_FUNC_ALU_UNIT_A;
+    wire        [31:0]  MULTI_FUNC_ALU_UNIT_B;
+    wire        [31:0]  MULTI_FUNC_ALU_UNIT_F;
+    wire                MULTI_FUNC_ALU_UNIT_ZF;
+    wire                MULTI_FUNC_ALU_UNIT_OF;
+	
+    SELECTOR SEL_0(.SELECTOR_SW_xi(MULTI_FUNC_ALU_UNIT_data_SW_xi), .SELECTOR_A_xo(MULTI_FUNC_ALU_UNIT_A),
+        .SELECTOR_B_xo(MULTI_FUNC_ALU_UNIT_B));
+		
+    MULTI_FUNC_ALU MFA_0(.MULTI_FUNC_ALU_A_xi(MULTI_FUNC_ALU_UNIT_A), .MULTI_FUNC_ALU_B_xi(MULTI_FUNC_ALU_UNIT_B),
+        .MULTI_FUNC_ALU_OP_xi(MULTI_FUNC_ALU_UNIT_OP_xi), .MULTI_FUNC_ALU_F_xo(MULTI_FUNC_ALU_UNIT_F),
+        .MULTI_FUNC_ALU_overflow_flag(MULTI_FUNC_ALU_UNIT_OF), .MULTI_FUNC_ALU_zero_flag(MULTI_FUNC_ALU_UNIT_ZF));
+		
+    LED_DISPLAY LD_0(.LED_DISPLAY_data_xi(MULTI_FUNC_ALU_UNIT_F), .LED_DISPLAY_overflow_flag_xi(MULTI_FUNC_ALU_UNIT_OF),
+        .LED_DISPLAY_zero_flag_xi(MULTI_FUNC_ALU_UNIT_ZF), .LED_DISPLAY_SW_xi(MULTI_FUNC_ALU_UNIT_LED_SW_xi),
+        .LED_DISPLAY_F_xo(MULTI_FUNC_ALU_UNIT_LED_xo));
 
 endmodule

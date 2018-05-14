@@ -12,7 +12,7 @@ Total CPU time to Xst completion: 0.12 secs
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.13 secs
  
---> Reading design: MULTI_FUNC_ALU.prj
+--> Reading design: SELECTOR.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,12 +39,12 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\MULTI_FUNC_ALU.v" into library work
-Parsing module <MULTI_FUNC_ALU>.
+Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\SELECTOR.v" into library work
+Parsing module <SELECTOR>.
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.06 secs
+Total CPU time to Xst completion: 4.17 secs
  
 --> 
 

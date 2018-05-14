@@ -2,7 +2,7 @@ set -tmpdir "D:/workplace/verilog/MULTI_FUNC_ALU/xst/projnav.tmp"
 set -xsthdpdir "D:/workplace/verilog/MULTI_FUNC_ALU/xst"
 run -compileonly yes
 -p xc6slx16-3-csg324
--top DIGITRON_DISPLAY
+-top SELECTOR
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -47,4 +47,4 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn DIGITRON_DISPLAY.prj
+-ifn SELECTOR.prj
