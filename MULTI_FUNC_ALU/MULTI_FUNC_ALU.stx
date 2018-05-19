@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.12 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: MULTI_FUNC_ALU.prj
 
@@ -44,7 +44,7 @@ Parsing module <MULTI_FUNC_ALU>.
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.06 secs
+Total CPU time to Xst completion: 3.94 secs
  
 --> 
 

@@ -18,16 +18,16 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module MULTI_FUNC_ALU(
+    module MULTI_FUNC_ALU(
     input       [31:0]  MULTI_FUNC_ALU_A_xi,
     input       [31:0]  MULTI_FUNC_ALU_B_xi,
     input       [2:0]   MULTI_FUNC_ALU_OP_xi,
     output  reg [31:0]  MULTI_FUNC_ALU_F_xo,
     output  reg         MULTI_FUNC_ALU_overflow_flag_xo,
-    output              MULTI_FUNC_ALU_zero_flag
+    output              MULTI_FUNC_ALU_zero_flag_xo
     );
 
-    assign MULTI_FUNC_ALU_zero_flag = ~(|MULTI_FUNC_ALU_F_xo);
+    assign MULTI_FUNC_ALU_zero_flag_xo = ~(|MULTI_FUNC_ALU_F_xo);
     always@(*)
     case (MULTI_FUNC_ALU_OP_xi)
         3'b000: MULTI_FUNC_ALU_F_xo = MULTI_FUNC_ALU_A_xi & MULTI_FUNC_ALU_B_xi;
