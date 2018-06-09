@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="370" delta="old" >"D:\workplace\verilog\E7-Get_and_Translate_Instruction\GET_INS.v" Line 25: Empty port in module declaration
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\workplace\verilog\E7-Get_and_Translate_Instruction\GET_INS.v" Line 46: Port <arg fmt="%s" index="1">dina</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\workplace\verilog\E7-Get_and_Translate_Instruction\ipcore_dir\RAM_B.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">RAM_B</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\workplace\verilog\E7-Get_and_Translate_Instruction\GET_INS.v" Line 48: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wea</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\workplace\verilog\E7-Get_and_Translate_Instruction\GET_INS.v" Line 46: Input port <arg fmt="%s" index="1">dina[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">p1</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">GI</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GI/PC_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_INST</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

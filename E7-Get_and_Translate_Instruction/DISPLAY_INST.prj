@@ -1,0 +1,5 @@
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "Clk_100Hz.v"
+verilog work "GET_INS.v"
+verilog work "DEBOUNCE.v"
+verilog work "DISPLAY_INST.v"
