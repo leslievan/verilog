@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=D:\workplace\verilog\FULL_ADDER\FULL_ADDER.ncd
-OUTFILE=D:\workplace\verilog\FULL_ADDER\FULL_ADDER.bit
-FAMILY=Spartan6
-PART=xc6slx16-3csg324
-WORKINGDIR=D:\workplace\verilog\FULL_ADDER
-LICENSE=WebPack
-USER_INFO=__0_0_0
