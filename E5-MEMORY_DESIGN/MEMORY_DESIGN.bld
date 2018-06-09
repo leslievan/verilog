@@ -1,0 +1,37 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Memory_Design_IC.ucf -p
+xc6slx16-csg324-3 MEMORY_DESIGN.ngc MEMORY_DESIGN.ngd
+
+Reading NGO file "D:/workplace/verilog/E5-MEMORY_DESIGN/MEMORY_DESIGN.ngc" ...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Memory_Design_IC.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4419876 kilobytes
+
+Writing NGD file "MEMORY_DESIGN.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "MEMORY_DESIGN.bld"...
