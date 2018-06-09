@@ -1,0 +1,104 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml REGISTER_FILE.twx REGISTER_FILE.ncd -o REGISTER_FILE.twr
+REGISTER_FILE.pcf -ucf REGISTER_FILE_IC.ucf
+
+Design file:              REGISTER_FILE.ncd
+Physical constraint file: REGISTER_FILE.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock RF_Write
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+RF_Port_Sel |    6.635(R)|      SLOW  |   -3.618(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_Sel<0>   |    7.992(R)|      SLOW  |   -2.940(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_Sel<1>   |    6.134(R)|      SLOW  |   -2.603(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock RF_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+RF_Addr<0>  |    7.058(R)|      SLOW  |   -1.141(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Addr<1>  |    7.085(R)|      SLOW  |   -0.984(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Addr<2>  |    7.041(R)|      SLOW  |   -0.978(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Addr<3>  |    6.856(R)|      SLOW  |   -0.892(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Addr<4>  |    7.333(R)|      SLOW  |   -1.226(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Port_Sel |    4.251(R)|      SLOW  |   -2.268(R)|      FAST  |RF_clk_BUFGP      |   0.000|
+RF_Reset    |    9.704(R)|      SLOW  |   -0.505(R)|      SLOW  |RF_clk_BUFGP      |   0.000|
+RF_Sel<0>   |    8.188(R)|      SLOW  |    0.146(R)|      SLOW  |RF_clk_BUFGP      |   0.000|
+RF_Sel<1>   |    5.181(R)|      SLOW  |    0.241(R)|      SLOW  |RF_clk_BUFGP      |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock RF_Write to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+RF_LED<0>   |         5.889(R)|      SLOW  |         2.841(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<1>   |         5.889(R)|      SLOW  |         2.841(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<2>   |         5.887(R)|      SLOW  |         2.839(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<3>   |         5.887(R)|      SLOW  |         2.839(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<4>   |         5.815(R)|      SLOW  |         2.767(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<5>   |         5.815(R)|      SLOW  |         2.767(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<6>   |         5.866(R)|      SLOW  |         2.818(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+RF_LED<7>   |         5.866(R)|      SLOW  |         2.818(R)|      FAST  |RF_Write_IBUF_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock RF_Write
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RF_clk         |   13.113|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RF_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RF_Write       |    5.550|    5.550|         |         |
+RF_clk         |    0.990|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat May 26 11:20:20 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4595 MB
+
+
+
