@@ -1,0 +1,8 @@
+verilog work "Translate_Control.v"
+verilog work "Register_Files.v"
+verilog work "PROGRAM_COUNTER.v"
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "ALU.v"
+verilog work "R_CPU.v"
+verilog work "R_CPU_T.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
