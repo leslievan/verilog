@@ -1,2 +1,2 @@
-verilog work "../FULL_ADDER/FULL_ADDER.v"
+verilog work "FULL_ADDER.v"
 verilog work "AHEAD_ADDER.v"

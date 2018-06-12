@@ -50,7 +50,14 @@ module MULTI_FUNC_ALU_UNIT_T;
 		#100;
         
 		// Add stimulus here
-
+    MULTI_FUNC_ALU_UNIT_OP_xi = 0;
+		MULTI_FUNC_ALU_UNIT_data_SW_xi = 1;
+		MULTI_FUNC_ALU_UNIT_LED_SW_xi = 0;
+    
+    #100;
+    MULTI_FUNC_ALU_UNIT_OP_xi = 5;
+		MULTI_FUNC_ALU_UNIT_data_SW_xi = 0;
+		MULTI_FUNC_ALU_UNIT_LED_SW_xi = 0;
 	end
       
 endmodule

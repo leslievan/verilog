@@ -23,3 +23,4 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off MULTI_FUNC_ALU_UNIT_map.ncd MULTI_FUNC_ALU_UNIT.ncd MULTI_FUNC_ALU_UNIT.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MULTI_FUNC_ALU_UNIT.twx MULTI_FUNC_ALU_UNIT.ncd -o MULTI_FUNC_ALU_UNIT.twr MULTI_FUNC_ALU_UNIT.pcf -ucf MULTI_FUNC_ALU_IC.ucf 
 bitgen -intstyle ise -f MULTI_FUNC_ALU_UNIT.ut MULTI_FUNC_ALU_UNIT.ncd 
+xst -intstyle ise -ifn "D:/workplace/verilog/E3-MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT.xst" -ofn "D:/workplace/verilog/E3-MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT.syr" 

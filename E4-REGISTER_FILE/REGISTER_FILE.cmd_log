@@ -13,3 +13,4 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off REGISTER_FILE_map.ncd REGISTER_FILE.ncd REGISTER_FILE.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml REGISTER_FILE.twx REGISTER_FILE.ncd -o REGISTER_FILE.twr REGISTER_FILE.pcf -ucf REGISTER_FILE_IC.ucf 
 bitgen -intstyle ise -f REGISTER_FILE.ut REGISTER_FILE.ncd 
+xst -intstyle ise -ifn "D:/workplace/verilog/E4-REGISTER_FILE/REGISTER_FILE.xst" -ofn "D:/workplace/verilog/E4-REGISTER_FILE/REGISTER_FILE.syr" 

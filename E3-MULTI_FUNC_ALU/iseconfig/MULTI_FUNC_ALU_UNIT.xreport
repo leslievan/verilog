@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-05-19T12:05:48</DateModified>
+  <DateModified>2018-06-10T23:55:32</DateModified>
   <ModuleName>MULTI_FUNC_ALU_UNIT</ModuleName>
   <SummaryTimeStamp>2018-05-19T10:18:27</SummaryTimeStamp>
-  <SavedFilePath>D:/workplace/verilog/MULTI_FUNC_ALU/iseconfig/MULTI_FUNC_ALU_UNIT.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/workplace/verilog/MULTI_FUNC_ALU\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/workplace/verilog/E3-MULTI_FUNC_ALU/iseconfig/MULTI_FUNC_ALU_UNIT.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/workplace/verilog/E3-MULTI_FUNC_ALU\</ImplementationReportsDirectory>
   <DateInitialized>2018-05-16T15:10:33</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

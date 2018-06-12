@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: REGISTER_FILE.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\workplace\verilog\REGISTER_FILE\REGISTER_FILE.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E4-REGISTER_FILE\REGISTER_FILE.v" into library work
 Parsing module <REGISTER_FILE>.
 
 =========================================================================
@@ -119,7 +119,7 @@ Elaborating module <REGISTER_FILE>.
 =========================================================================
 
 Synthesizing Unit <REGISTER_FILE>.
-    Related source file is "D:\workplace\verilog\REGISTER_FILE\REGISTER_FILE.v".
+    Related source file is "D:\workplace\verilog\E4-REGISTER_FILE\REGISTER_FILE.v".
 WARNING:Xst:2999 - Signal 'RF_DATA', unconnected in block 'REGISTER_FILE', is tied to its initial value.
     Found 4x32-bit single-port Read Only RAM <Mram_RF_DATA> for signal <RF_DATA>.
     Found 1024-bit register for signal <n0061[1023:0]>.
@@ -634,12 +634,12 @@ RF_clk         |    1.405|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.94 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.10 secs
  
 --> 
 
-Total memory usage is 4541620 kilobytes
+Total memory usage is 4541580 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    9 (   0 filtered)

@@ -8,16 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/workplace/verilog/MULTI_FUNC_ALU/LED_DISPLAY.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/workplace/verilog/MULTI_FUNC_ALU/MULTI_FUNC_ALU.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/workplace/verilog/MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/workplace/verilog/MULTI_FUNC_ALU/SELECTOR.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/workplace/verilog/E3-MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT_T.v&quot; into library work</arg>
 </msg>
 
 </messages>

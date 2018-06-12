@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-06-09T10:11:49</DateModified>
+  <DateModified>2018-06-12T15:12:11</DateModified>
   <ModuleName>MEMORY_DESIGN</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>D:/workplace/verilog/E5-MEMORY_DESIGN/iseconfig/MEMORY_DESIGN.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/workplace/verilog/E5-MEMORY_DESIGN</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/workplace/verilog/E5-MEMORY_DESIGN\</ImplementationReportsDirectory>
   <DateInitialized>2018-06-09T10:11:49</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

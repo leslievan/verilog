@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: AHEAD_ADDER.prj
 
@@ -105,9 +105,9 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\workplace\verilog\FULL_ADDER\FULL_ADDER.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E2-AHEAD_ADDER\FULL_ADDER.v" into library work
 Parsing module <FULL_ADDER>.
-Analyzing Verilog file "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v" into library work
 Parsing module <AHEAD_ADDER>.
 
 =========================================================================
@@ -123,17 +123,17 @@ Elaborating module <FULL_ADDER>.
 =========================================================================
 
 Synthesizing Unit <AHEAD_ADDER>.
-    Related source file is "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v".
-INFO:Xst:3210 - "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v" line 44: Output port <FA_C_1> of the instance <FA_0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v" line 46: Output port <FA_C_1> of the instance <FA_1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v" line 48: Output port <FA_C_1> of the instance <FA_2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\workplace\verilog\AHEAD_ADDER\AHEAD_ADDER.v" line 50: Output port <FA_C_1> of the instance <FA_3> is unconnected or connected to loadless signal.
+    Related source file is "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v".
+INFO:Xst:3210 - "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v" line 44: Output port <FA_C_1> of the instance <FA_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v" line 46: Output port <FA_C_1> of the instance <FA_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v" line 48: Output port <FA_C_1> of the instance <FA_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\workplace\verilog\E2-AHEAD_ADDER\AHEAD_ADDER.v" line 50: Output port <FA_C_1> of the instance <FA_3> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <AHEAD_ADDER> synthesized.
 
 Synthesizing Unit <FULL_ADDER>.
-    Related source file is "D:\workplace\verilog\FULL_ADDER\FULL_ADDER.v".
+    Related source file is "D:\workplace\verilog\E2-AHEAD_ADDER\FULL_ADDER.v".
     Found 2-bit adder for signal <n0009> created at line 29.
     Found 2-bit adder for signal <n0003> created at line 29.
     Summary:
@@ -295,12 +295,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.67 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.98 secs
  
 --> 
 
-Total memory usage is 4507472 kilobytes
+Total memory usage is 4523160 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

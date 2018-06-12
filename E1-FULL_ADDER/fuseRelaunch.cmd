@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E1-FULL_ADDER/Full_Adder_T_isim_beh.exe" -prj "D:/workplace/verilog/E1-FULL_ADDER/Full_Adder_T_beh.prj" "work.Full_Adder_T" "work.glbl" 

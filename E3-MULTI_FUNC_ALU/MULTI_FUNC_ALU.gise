@@ -25,9 +25,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MULTI_FUNC_ALU.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MULTI_FUNC_ALU.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="MULTI_FUNC_ALU.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MULTI_FUNC_ALU_T_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MULTI_FUNC_ALU_T_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MULTI_FUNC_ALU_T_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="MULTI_FUNC_ALU_UNIT.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MULTI_FUNC_ALU_UNIT.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MULTI_FUNC_ALU_UNIT.lso"/>
@@ -48,6 +46,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="MULTI_FUNC_ALU_UNIT.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="MULTI_FUNC_ALU_UNIT.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MULTI_FUNC_ALU_UNIT.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MULTI_FUNC_ALU_UNIT_T_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MULTI_FUNC_ALU_UNIT_T_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MULTI_FUNC_ALU_UNIT_T_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MULTI_FUNC_ALU_UNIT_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="MULTI_FUNC_ALU_UNIT_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MULTI_FUNC_ALU_UNIT_isim_beh.exe"/>
@@ -94,7 +95,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1526697297" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1526697297">
+    <transform xil_pn:end_ts="1528646366" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1528646366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="LED_DISPLAY.v"/>
@@ -104,11 +105,11 @@
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_T.v"/>
       <outfile xil_pn:name="SELECTOR.v"/>
     </transform>
-    <transform xil_pn:end_ts="1526697019" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6445194365730656031" xil_pn:start_ts="1526697019">
+    <transform xil_pn:end_ts="1528646366" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2013285542202164832" xil_pn:start_ts="1528646366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1526697019" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-281301556444255585" xil_pn:start_ts="1526697019">
+    <transform xil_pn:end_ts="1528646366" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-792515059260678626" xil_pn:start_ts="1528646366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -116,7 +117,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1526697297" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1526697297">
+    <transform xil_pn:end_ts="1528646366" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1528646366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="LED_DISPLAY.v"/>
@@ -126,26 +127,24 @@
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_T.v"/>
       <outfile xil_pn:name="SELECTOR.v"/>
     </transform>
-    <transform xil_pn:end_ts="1526697300" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3028432917513924225" xil_pn:start_ts="1526697297">
+    <transform xil_pn:end_ts="1528646369" xil_pn:in_ck="1904968429870820451" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2148638778164465153" xil_pn:start_ts="1528646366">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MULTI_FUNC_ALU_T_beh.prj"/>
-      <outfile xil_pn:name="MULTI_FUNC_ALU_T_isim_beh.exe"/>
+      <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_T_beh.prj"/>
+      <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_T_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1526697300" xil_pn:in_ck="4337980786410770142" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4743226846970440132" xil_pn:start_ts="1526697300">
+    <transform xil_pn:end_ts="1528646369" xil_pn:in_ck="-3404508622532751850" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6103008009770798594" xil_pn:start_ts="1528646369">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MULTI_FUNC_ALU_T_isim_beh.wdb"/>
+      <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_T_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -177,13 +176,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1526702155" xil_pn:in_ck="-4498173308987375000" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8657203012777571497" xil_pn:start_ts="1526702144">
+    <transform xil_pn:end_ts="1528646246" xil_pn:in_ck="-4498173308987375000" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8657203012777571497" xil_pn:start_ts="1528646236">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.lso"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.ngc"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.ngr"/>
@@ -203,7 +199,8 @@
     <transform xil_pn:end_ts="1526702161" xil_pn:in_ck="1625995650148365930" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2441873528908299365" xil_pn:start_ts="1526702155">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.bld"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.ngd"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT_ngdbuild.xrpt"/>
@@ -246,6 +243,8 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MULTI_FUNC_ALU_UNIT.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="multi_func_alu_unit.bgn"/>

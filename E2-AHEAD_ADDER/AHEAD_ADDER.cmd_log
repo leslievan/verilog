@@ -22,3 +22,4 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off AHEAD_ADDER_map.ncd AHEAD_ADDER.ncd AHEAD_ADDER.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AHEAD_ADDER.twx AHEAD_ADDER.ncd -o AHEAD_ADDER.twr AHEAD_ADDER.pcf -ucf AHEAD_ADDER_IC.ucf 
 bitgen -intstyle ise -f AHEAD_ADDER.ut AHEAD_ADDER.ncd 
+xst -intstyle ise -ifn "D:/workplace/verilog/E2-AHEAD_ADDER/AHEAD_ADDER.xst" -ofn "D:/workplace/verilog/E2-AHEAD_ADDER/AHEAD_ADDER.syr" 

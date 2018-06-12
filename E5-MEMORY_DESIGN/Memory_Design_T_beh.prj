@@ -1,0 +1,6 @@
+verilog work "Clk_100Hz.v"
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "DEBOUNCE.v"
+verilog work "MEMORY_DESIGN.v"
+verilog work "Memory_Design_T.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

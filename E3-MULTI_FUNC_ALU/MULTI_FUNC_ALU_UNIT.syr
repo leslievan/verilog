@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: MULTI_FUNC_ALU_UNIT.prj
@@ -105,13 +105,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\SELECTOR.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E3-MULTI_FUNC_ALU\SELECTOR.v" into library work
 Parsing module <SELECTOR>.
-Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\MULTI_FUNC_ALU.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E3-MULTI_FUNC_ALU\MULTI_FUNC_ALU.v" into library work
 Parsing module <MULTI_FUNC_ALU>.
-Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\LED_DISPLAY.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E3-MULTI_FUNC_ALU\LED_DISPLAY.v" into library work
 Parsing module <LED_DISPLAY>.
-Analyzing Verilog file "D:\workplace\verilog\MULTI_FUNC_ALU\MULTI_FUNC_ALU_UNIT.v" into library work
+Analyzing Verilog file "D:\workplace\verilog\E3-MULTI_FUNC_ALU\MULTI_FUNC_ALU_UNIT.v" into library work
 Parsing module <MULTI_FUNC_ALU_UNIT>.
 
 =========================================================================
@@ -131,20 +131,20 @@ Elaborating module <LED_DISPLAY>.
 =========================================================================
 
 Synthesizing Unit <MULTI_FUNC_ALU_UNIT>.
-    Related source file is "D:\workplace\verilog\MULTI_FUNC_ALU\MULTI_FUNC_ALU_UNIT.v".
+    Related source file is "D:\workplace\verilog\E3-MULTI_FUNC_ALU\MULTI_FUNC_ALU_UNIT.v".
     Summary:
 	no macro.
 Unit <MULTI_FUNC_ALU_UNIT> synthesized.
 
 Synthesizing Unit <SELECTOR>.
-    Related source file is "D:\workplace\verilog\MULTI_FUNC_ALU\SELECTOR.v".
+    Related source file is "D:\workplace\verilog\E3-MULTI_FUNC_ALU\SELECTOR.v".
     Found 8x64-bit Read Only RAM for signal <_n0013>
     Summary:
 	inferred   1 RAM(s).
 Unit <SELECTOR> synthesized.
 
 Synthesizing Unit <MULTI_FUNC_ALU>.
-    Related source file is "D:\workplace\verilog\MULTI_FUNC_ALU\MULTI_FUNC_ALU.v".
+    Related source file is "D:\workplace\verilog\E3-MULTI_FUNC_ALU\MULTI_FUNC_ALU.v".
     Found 33-bit subtractor for signal <GND_3_o_GND_3_o_sub_8_OUT> created at line 38.
     Found 33-bit adder for signal <n0031> created at line 37.
     Found 32-bit shifter logical left for signal <MULTI_FUNC_ALU_B_xi[31]_MULTI_FUNC_ALU_A_xi[31]_shift_left_10_OUT> created at line 40
@@ -160,7 +160,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <MULTI_FUNC_ALU_overflow_flag_xo>
 Unit <MULTI_FUNC_ALU> synthesized.
 
 Synthesizing Unit <LED_DISPLAY>.
-    Related source file is "D:\workplace\verilog\MULTI_FUNC_ALU\LED_DISPLAY.v".
+    Related source file is "D:\workplace\verilog\E3-MULTI_FUNC_ALU\LED_DISPLAY.v".
     Found 8-bit 4-to-1 multiplexer for signal <_n0019> created at line 26.
     Summary:
 	inferred   2 Multiplexer(s).
@@ -475,8 +475,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.67 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.26 secs
  
 --> 
 
