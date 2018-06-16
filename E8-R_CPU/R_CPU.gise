@@ -268,7 +268,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="R_CPU.ngr"/>
       <outfile xil_pn:name="R_CPU_Unit.lso"/>
@@ -291,6 +293,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="R_CPU_Unit.bld"/>
       <outfile xil_pn:name="R_CPU_Unit.ngd"/>
       <outfile xil_pn:name="R_CPU_Unit_ngdbuild.xrpt"/>
@@ -300,6 +304,10 @@
     <transform xil_pn:end_ts="1529123856" xil_pn:in_ck="4366802467362651950" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1529123803">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="R_CPU_Unit.pcf"/>
       <outfile xil_pn:name="R_CPU_Unit_map.map"/>
       <outfile xil_pn:name="R_CPU_Unit_map.mrp"/>
@@ -313,6 +321,8 @@
     <transform xil_pn:end_ts="1529123971" xil_pn:in_ck="7256652272543957024" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1529123856">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="R_CPU_Unit.ncd"/>
       <outfile xil_pn:name="R_CPU_Unit.pad"/>
       <outfile xil_pn:name="R_CPU_Unit.par"/>
@@ -328,6 +338,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="R_CPU_Unit.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="r_cpu_unit.bgn"/>
@@ -340,6 +352,7 @@
     <transform xil_pn:end_ts="1529123971" xil_pn:in_ck="-6726865153056002646" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1529123959">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="R_CPU_Unit.twr"/>
       <outfile xil_pn:name="R_CPU_Unit.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
@@ -349,6 +362,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
