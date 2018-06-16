@@ -20,6 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module R_CPU(
   clka,
+  //clkb,
   rsta,
   ofa,
   zfa,
@@ -32,6 +33,7 @@ module R_CPU(
   output zfa;
   output [31 : 0] douta;
 
+  //wire clk_de;
   wire clkn;
   wire [31 : 0] PC;
   wire [31 : 0] Inst_code;
@@ -55,6 +57,12 @@ module R_CPU(
 
   not N0(clkn, clka);
 
+  /*DEBOUNCE DE(
+    .Clk(clk),
+    .Key_xi(clka),
+    .Key_xo(clka)
+  );*/
+
   RAM_B Inst_Mem(
     .clka(clka),
     .addra(PC[7 : 2]),
@@ -76,7 +84,6 @@ module R_CPU(
 
   REGISTER_FILES R_F(
     .clka(clkn),
-    .rsta(rsta),
     .wea(Write_Reg),
     .raddra(rs),
     .raddrb(rt),

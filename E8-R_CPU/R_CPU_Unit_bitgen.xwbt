@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\workplace\verilog\E8-R_CPU\R_CPU_Unit.ncd
+OUTFILE=D:\workplace\verilog\E8-R_CPU\R_CPU_Unit.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\workplace\verilog\E8-R_CPU
+LICENSE=WebPack
+USER_INFO=__0_0_0

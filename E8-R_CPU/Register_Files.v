@@ -55,10 +55,10 @@ module REGISTER_FILES(
   always @(posedge clka or posedge rsta) begin
     if (rsta) begin
       counter = 0;
-      while (counter < 32) begin
+      /*while (counter < 32) begin
         REG_FILES[counter] = 32'b0;
         counter = counter + 1;
-      end
+      end*/
     end else
       if (wea) begin
         if (waddra == 0)
