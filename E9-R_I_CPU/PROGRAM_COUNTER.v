@@ -27,15 +27,14 @@ module PROGRAM_COUNTER(
   input clka;
   input rsta;
   output reg [31 : 0] douta;
-  
   wire [31 : 0] PC_new;
 
-  initial douta = 32'hffff_fffc;
+  initial douta = 32'hffff_fffc;  
   assign PC_new = douta + 4;
 
   always @(posedge clka or posedge rsta) begin
     if (rsta) begin
-      douta <= 0;
+      douta <= 32'b0;
     end else begin
       douta <= PC_new;
     end

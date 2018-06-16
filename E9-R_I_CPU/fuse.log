@@ -1,0 +1,39 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T_isim_beh.exe -prj D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T_beh.prj work.R_I_CPU_T work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/Translate_Control.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/Register_Files.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/Program_Counter.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/ipcore_dir/ROM_B.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/ipcore_dir/RAM_B.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/ALU.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" into library work
+WARNING:HDLCompiler:370 - "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 8: Empty port in module declaration
+Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 76: Port wea is not connected to this instance
+Completed static elaboration
+Compiling module PROGRAM_COUNTER
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module ROM_B
+Compiling module TRANSLATE_CONTROL
+Compiling module REGISTER_FILES
+Compiling module ALU
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module RAM_B
+Compiling module R_I_CPU
+Compiling module R_I_CPU_T
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T_isim_beh.exe
+Fuse Memory Usage: 33192 KB
+Fuse CPU Usage: 499 ms
