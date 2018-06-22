@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   17:18:05 06/16/2018
+// Create Date:   19:46:16 06/22/2018
 // Design Name:   R_I_CPU
 // Module Name:   D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T.v
 // Project Name:  R_I_CPU
@@ -32,7 +32,7 @@ module R_I_CPU_T;
 	// Outputs
 	wire ofa;
 	wire zfa;
-	wire [31 : 0] douta;
+	wire [31:0] douta;
 
 	// Instantiate the Unit Under Test (UUT)
 	R_I_CPU uut (
@@ -43,7 +43,7 @@ module R_I_CPU_T;
 		.zfa(zfa), 
 		.douta(douta)
 	);
-
+  
 	initial begin
 		// Initialize Inputs
 		clka = 0;
@@ -55,80 +55,80 @@ module R_I_CPU_T;
         
 		// Add stimulus here
     clka = 1;
-    
     #100;
     clka = 0;
-    
-    #100;
-    clka = 1;
-    
-    #100;
-    clka = 0;
-    
-    #100;
-    clka = 1;
-    
-    #100;
-    clka = 0;
-    
-    #100;
-    clka = 1;
-    
-    #100;
-    clka = 0;
-    
-    #100;
-    clka = 1;
-    
-    #100;
-    clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
     #100;
-    clka = 1;
-    #100;
-    clka = 0;
     rsta = 1;
-    
     #100;
-    clka = 1;
     rsta = 0;
-    
-    #100;
-    clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
     #100;
     clka = 1;
     #100;
     clka = 0;
-    
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
+    #100;
+    clka = 1;
+    #100;
+    clka = 0;
     #100;
     clka = 1;
 	end
+  always @(*) begin
+    #1;
+    clkb = ~clkb;
+    #1;
+   end
       
 endmodule
 

@@ -5,9 +5,6 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="370" delta="unknown" >"D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 8: Empty port in module declaration
-</msg>
-
 <msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 76: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
 </msg>
 

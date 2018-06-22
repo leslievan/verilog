@@ -4,7 +4,7 @@ module R_I_CPU(
   rsta,
   ofa,
   zfa,
-  douta,
+  douta
   );
 
   input clka;
@@ -65,13 +65,7 @@ module R_I_CPU(
   
   assign douta = ALU_F;
   
-  DEBOUNCE DE(
-    .clk(clkb),
-    .key_xi(clka),
-    .key_xo(clk_de)
-  );
-  
-  not N0(clkn, clk_de);
+  not N0(clkn, clka);
 
   PROGRAM_COUNTER P_C(
     .clka(clkn),
@@ -80,7 +74,7 @@ module R_I_CPU(
   );
 
   ROM_B Inst_RAM(
-    .clka(clk_de),
+    .clka(clka),
     .addra(PC[7 : 2]),
     .douta(Inst_code)
   );

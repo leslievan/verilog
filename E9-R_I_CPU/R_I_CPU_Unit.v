@@ -11,14 +11,26 @@ module R_I_CPU_Unit(
   input rsta;
   input [3 : 0] sela;
   output [7 : 0] LED;
-
+  
+  wire clk_de;
   wire ofa;
   wire zfa;
   wire [31 : 0] data;
-
+  
+  DEBOUNCE DBCLKA(
+    .clk(clkb),
+    .key_xi(clka),
+    .key_xo(clk_de)
+  );
+  
+  DEBOUNCE DBRSTA(
+    .clk(clkb),
+    .key_xi(rsta),
+    .key_xo(rst_de)
+  );
   R_I_CPU RIC(
-    .clka(clka),
-    .rsta(rsta),
+    .clka(clk_de),
+    .rsta(rst_de),
     .ofa(ofa),
     .zfa(zfa),
     .douta(data)

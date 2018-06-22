@@ -1210,9 +1210,9 @@ LAB1:    return;
 }
 
 
-extern void work_m_00000000000022489388_2581500488_init()
+extern void work_m_00000000001986598003_2581500488_init()
 {
 	static char *pe[] = {(void *)Cont_51_0,(void *)Cont_52_1,(void *)Cont_53_2,(void *)Cont_54_3,(void *)Cont_55_4,(void *)Cont_56_5,(void *)Cont_57_6,(void *)Cont_58_7,(void *)Cont_59_8,(void *)Cont_61_9,(void *)Cont_62_10,(void *)Cont_63_11,(void *)Cont_64_12,(void *)Cont_66_13,(void *)Gate_68_14};
-	xsi_register_didat("work_m_00000000000022489388_2581500488", "isim/R_I_CPU_T_isim_beh.exe.sim/work/m_00000000000022489388_2581500488.didat");
+	xsi_register_didat("work_m_00000000001986598003_2581500488", "isim/R_I_CPU_isim_beh.exe.sim/work/m_00000000001986598003_2581500488.didat");
 	xsi_register_executes(pe);
 }
