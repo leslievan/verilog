@@ -20,18 +20,23 @@
 //////////////////////////////////////////////////////////////////////////////////
 module LED_DISPLAY(
     input       [31:0]  dina,
+    input       [31:0]  dinb,
     input               ofa,
     input               zfa,
-    input       [2:0]   sela,
+    input       [3:0]   sela,
     output  reg [7:0]   LED
     );
 
     always@(*)
     case (sela)
-        3'b000: LED = dina[7:0];
-        3'b001: LED = dina[15:8];
-        3'b010: LED = dina[23:16];
-        3'b011: LED = dina[31:24];
+        4'b0000: LED = dina[7:0];
+        4'b0001: LED = dina[15:8];
+        4'b0010: LED = dina[23:16];
+        4'b0011: LED = dina[31:24];
+        4'b0100: LED = dinb[7:0];
+        4'b0101: LED = dinb[15:8];
+        4'b0110: LED = dinb[23:16];
+        4'b0111: LED = dinb[31:24];
         default:
             begin
                 LED[0] = zfa;

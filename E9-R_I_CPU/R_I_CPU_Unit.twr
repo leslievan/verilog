@@ -32,45 +32,76 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Clock clkb to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LED<0>      |        12.186(R)|      SLOW  |         6.172(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<1>      |        12.503(R)|      SLOW  |         6.373(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<2>      |        12.142(R)|      SLOW  |         6.289(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<3>      |        12.005(R)|      SLOW  |         6.207(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<4>      |        12.250(R)|      SLOW  |         6.043(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<5>      |        11.960(R)|      SLOW  |         5.963(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<6>      |        11.484(R)|      SLOW  |         5.395(R)|      FAST  |clkb_BUFGP        |   0.000|
+LED<7>      |        13.803(R)|      SLOW  |         5.690(R)|      FAST  |clkb_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clkb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkb           |    4.148|         |         |         |
+---------------+---------+---------+---------+---------+
+
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-sela<0>        |LED<0>         |    8.813|
-sela<0>        |LED<1>         |    9.047|
-sela<0>        |LED<2>         |    8.725|
-sela<0>        |LED<3>         |    8.805|
-sela<0>        |LED<4>         |    8.065|
-sela<0>        |LED<5>         |    8.414|
-sela<0>        |LED<6>         |    7.758|
-sela<0>        |LED<7>         |    7.694|
-sela<1>        |LED<0>         |    9.046|
-sela<1>        |LED<1>         |    8.516|
-sela<1>        |LED<2>         |    8.036|
-sela<1>        |LED<3>         |    7.936|
-sela<1>        |LED<4>         |    7.461|
-sela<1>        |LED<5>         |    7.794|
-sela<1>        |LED<6>         |    7.576|
-sela<1>        |LED<7>         |    8.032|
-sela<2>        |LED<0>         |    9.293|
-sela<2>        |LED<1>         |    8.742|
-sela<2>        |LED<2>         |    8.054|
-sela<2>        |LED<3>         |    7.603|
-sela<2>        |LED<4>         |    7.567|
-sela<2>        |LED<5>         |    7.722|
-sela<2>        |LED<6>         |    7.507|
-sela<2>        |LED<7>         |    7.491|
+sela<0>        |LED<0>         |   10.356|
+sela<0>        |LED<1>         |   10.350|
+sela<0>        |LED<2>         |    9.366|
+sela<0>        |LED<3>         |    8.856|
+sela<0>        |LED<4>         |    9.817|
+sela<0>        |LED<5>         |   10.368|
+sela<0>        |LED<6>         |    9.142|
+sela<0>        |LED<7>         |    9.443|
+sela<1>        |LED<0>         |   10.726|
+sela<1>        |LED<1>         |   11.004|
+sela<1>        |LED<2>         |    9.495|
+sela<1>        |LED<3>         |    8.848|
+sela<1>        |LED<4>         |   10.182|
+sela<1>        |LED<5>         |   10.285|
+sela<1>        |LED<6>         |    9.043|
+sela<1>        |LED<7>         |    9.592|
+sela<2>        |LED<0>         |    9.701|
+sela<2>        |LED<1>         |   10.411|
+sela<2>        |LED<2>         |    9.052|
+sela<2>        |LED<3>         |    8.670|
+sela<2>        |LED<4>         |    9.725|
+sela<2>        |LED<5>         |    9.822|
+sela<2>        |LED<6>         |    8.733|
+sela<2>        |LED<7>         |    8.616|
+sela<3>        |LED<0>         |   12.413|
+sela<3>        |LED<1>         |    7.886|
+sela<3>        |LED<2>         |    7.511|
+sela<3>        |LED<3>         |    7.642|
+sela<3>        |LED<4>         |    7.335|
+sela<3>        |LED<5>         |    7.335|
+sela<3>        |LED<6>         |    6.885|
+sela<3>        |LED<7>         |    8.578|
 ---------------+---------------+---------+
 
 
-Analysis completed Sun Jun 17 02:45:06 2018 
+Analysis completed Sat Jun 23 12:33:06 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4575 MB
+Peak Memory Usage: 4615 MB
 
 
 

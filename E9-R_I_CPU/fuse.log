@@ -13,7 +13,8 @@ Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" into library 
 Analyzing Verilog file "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T.v" into library work
 Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 76: Port wea is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 79: Port dina is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.v" Line 81: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
 Compiling module PROGRAM_COUNTER
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
@@ -31,7 +32,8 @@ Compiling module R_I_CPU
 Compiling module R_I_CPU_T
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 15 Verilog Units
 Built simulation executable D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T_isim_beh.exe
-Fuse Memory Usage: 33192 KB
-Fuse CPU Usage: 640 ms
+Fuse Memory Usage: 33260 KB
+Fuse CPU Usage: 1030 ms

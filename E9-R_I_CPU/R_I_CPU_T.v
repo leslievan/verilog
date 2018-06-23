@@ -33,6 +33,7 @@ module R_I_CPU_T;
 	wire ofa;
 	wire zfa;
 	wire [31:0] douta;
+  wire [31:0] doutb;
 
 	// Instantiate the Unit Under Test (UUT)
 	R_I_CPU uut (
@@ -41,7 +42,8 @@ module R_I_CPU_T;
 		.rsta(rsta), 
 		.ofa(ofa), 
 		.zfa(zfa), 
-		.douta(douta)
+		.douta(douta),
+    .doutb(doutb)
 	);
   
 	initial begin
@@ -125,8 +127,7 @@ module R_I_CPU_T;
     clka = 1;
 	end
   always @(*) begin
-    #1;
-    clkb = ~clkb;
+    #1 clkb = ~clkb;
     #1;
    end
       

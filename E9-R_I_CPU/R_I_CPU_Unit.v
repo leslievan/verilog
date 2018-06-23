@@ -13,9 +13,11 @@ module R_I_CPU_Unit(
   output [7 : 0] LED;
   
   wire clk_de;
+  wire rst_de;
   wire ofa;
   wire zfa;
-  wire [31 : 0] data;
+  wire [31 : 0] f_data;
+  wire [31 : 0] r_data;
   
   DEBOUNCE DBCLKA(
     .clk(clkb),
@@ -28,16 +30,20 @@ module R_I_CPU_Unit(
     .key_xi(rsta),
     .key_xo(rst_de)
   );
+  
   R_I_CPU RIC(
     .clka(clk_de),
+    .clkb(clkb),
     .rsta(rst_de),
     .ofa(ofa),
     .zfa(zfa),
-    .douta(data)
+    .douta(f_data),
+    .doutb(r_data)
   );
 
   LED_DISPLAY L_D(
-    .dina(data),
+    .dina(f_data),
+    .dinb(r_data),
     .zfa(zfa),
     .ofa(ofa),
     .sela(sela),

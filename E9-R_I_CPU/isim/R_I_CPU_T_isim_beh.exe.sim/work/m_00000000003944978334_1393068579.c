@@ -24,7 +24,6 @@
 static const char *ng0 = "D:/workplace/verilog/E9-R_I_CPU/Program_Counter.v";
 static unsigned int ng1[] = {4294967292U, 0U};
 static int ng2[] = {4, 0};
-static unsigned int ng3[] = {0U, 0U};
 
 
 
@@ -140,7 +139,7 @@ LAB8:    goto LAB2;
 LAB6:    xsi_set_current_line(36, ng0);
 
 LAB9:    xsi_set_current_line(37, ng0);
-    t11 = ((char*)((ng3)));
+    t11 = ((char*)((ng1)));
     t12 = (t0 + 1768);
     xsi_vlogvar_wait_assign_value(t12, t11, 0, 0, 32, 0LL);
     goto LAB8;

@@ -4,7 +4,8 @@ module R_I_CPU(
   rsta,
   ofa,
   zfa,
-  douta
+  douta,
+  doutb
   );
 
   input clka;
@@ -13,6 +14,7 @@ module R_I_CPU(
   output ofa;
   output zfa;
   output [31 : 0] douta;
+  output [31 : 0] doutb;
 
   //Get instruction
   wire clkn;
@@ -64,6 +66,7 @@ module R_I_CPU(
   assign imm_data = (imm_s)? {{16{imm[15]}}, imm} : {{16{1'b0}}, imm};
   
   assign douta = ALU_F;
+  assign doutb = M_R_Data;
   
   not N0(clkn, clka);
 
@@ -75,6 +78,7 @@ module R_I_CPU(
 
   ROM_B Inst_RAM(
     .clka(clka),
+    .wea(0),
     .addra(PC[7 : 2]),
     .douta(Inst_code)
   );

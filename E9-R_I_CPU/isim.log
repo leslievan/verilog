@@ -2,6 +2,7 @@ ISim log file
 Running: D:\workplace\verilog\E9-R_I_CPU\R_I_CPU_T_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/workplace/verilog/E9-R_I_CPU/R_I_CPU_T_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING:  For instance uut/Inst_RAM/, width 1 of formal port wea is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
@@ -14,4 +15,3 @@ Block Memory Generator CORE Generator module R_I_CPU_T.uut.Inst_RAM.inst.\native
  Block Memory Generator data initialization complete.
 Block Memory Generator CORE Generator module R_I_CPU_T.uut.Data_RAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Finished circuit initialization process.
-# run all

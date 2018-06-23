@@ -1,6 +1,7 @@
 NET "clka" LOC = "C9";
 NET "clkb" LOC = "V10";
 NET "rsta" LOC = "D9";
+NET "sela[3]" LOC = "M8";
 NET "sela[2]" LOC = "V9";
 NET "sela[1]" LOC = "T9";
 NET "sela[0]" LOC = "T10";

@@ -1,7 +1,7 @@
 #Release 14.7 - par P.20131013 (nt64)
 #Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-#Sun Jun 17 02:45:00 2018
+#Sat Jun 23 12:32:49 2018
 
 #
 ## NOTE: This file is designed to be imported into a spreadsheet program
@@ -224,7 +224,7 @@ M4,,,VCCO_3,,,3,,,,,any******,,,,
 M5,,IOBS,IO_L31N_VREF_3,UNUSED,,3,,,,,,,,,
 M6,,,GND,,,,,,,,,,,,
 M7,,,VCCINT,,,,,,,,1.2,,,,
-M8,,IOBM,IO_L40P_2,UNUSED,,2,,,,,,,,,
+M8,sela<3>,IOB,IO_L40P_2,INPUT,LVCMOS25*,2,,,,NONE,,LOCATED,NO,NONE,
 M9,,,VCCAUX,,,,,,,,2.5,,,,
 M10,,IOBM,IO_L22P_2,UNUSED,,2,,,,,,,,,
 M11,LED<4>,IOB,IO_L15P_2,OUTPUT,LVCMOS25*,2,12,SLOW,,,,LOCATED,NO,NONE,

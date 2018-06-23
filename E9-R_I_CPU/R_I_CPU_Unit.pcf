@@ -1,10 +1,15 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sun Jun 17 02:44:51 2018
+// Written by: Map P.20131013 on Sat Jun 23 12:29:07 2018
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "clka" LOCATE = SITE "C9" LEVEL 1;
 COMP "clkb" LOCATE = SITE "V10" LEVEL 1;
+COMP "rsta" LOCATE = SITE "D9" LEVEL 1;
+COMP "sela<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sela<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "sela<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sela<3>" LOCATE = SITE "M8" LEVEL 1;
 COMP "LED<0>" LOCATE = SITE "U16" LEVEL 1;
 COMP "LED<1>" LOCATE = SITE "V16" LEVEL 1;
 COMP "LED<2>" LOCATE = SITE "U15" LEVEL 1;
@@ -13,9 +18,5 @@ COMP "LED<4>" LOCATE = SITE "M11" LEVEL 1;
 COMP "LED<5>" LOCATE = SITE "N11" LEVEL 1;
 COMP "LED<6>" LOCATE = SITE "R11" LEVEL 1;
 COMP "LED<7>" LOCATE = SITE "T11" LEVEL 1;
-COMP "sela<0>" LOCATE = SITE "T10" LEVEL 1;
-COMP "sela<1>" LOCATE = SITE "T9" LEVEL 1;
-COMP "sela<2>" LOCATE = SITE "V9" LEVEL 1;
-COMP "rsta" LOCATE = SITE "D9" LEVEL 1;
 SCHEMATIC END;
 
