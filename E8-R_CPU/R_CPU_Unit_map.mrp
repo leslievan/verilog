@@ -10,7 +10,7 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Jun 16 12:36:44 2018
+Mapped Date    : Sat Jun 23 11:33:03 2018
 
 Design Summary
 --------------
@@ -82,9 +82,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                4.83
 
-Peak Memory Usage:  4602 MB
-Total REAL time to MAP completion:  50 secs 
-Total CPU time to MAP completion:   50 secs 
+Peak Memory Usage:  4573 MB
+Total REAL time to MAP completion:  1 mins 7 secs 
+Total CPU time to MAP completion:   1 mins 6 secs 
 
 Table of Contents
 -----------------
@@ -149,7 +149,7 @@ INFO:Pack:1650 - Map created a placed design.
 Section 4 - Removed Logic Summary
 ---------------------------------
    4 block(s) optimized away
-  38 signal(s) removed
+  37 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
@@ -164,7 +164,6 @@ To quickly locate the original cause for the removal of a chain of logic, look
 above the place where that logic is listed in the trimming report, then locate
 the lines that are least indented (begin at the leftmost edge).
 
-The signal "RC/Inst_Mem/wea<0>" is sourceless and has been removed.
 The signal "RC/Inst_Mem/dina<31>" is sourceless and has been removed.
 The signal "RC/Inst_Mem/dina<30>" is sourceless and has been removed.
 The signal "RC/Inst_Mem/dina<29>" is sourceless and has been removed.

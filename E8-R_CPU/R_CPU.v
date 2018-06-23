@@ -57,14 +57,9 @@ module R_CPU(
 
   not N0(clkn, clka);
 
-  /*DEBOUNCE DE(
-    .Clk(clk),
-    .Key_xi(clka),
-    .Key_xo(clka)
-  );*/
-
   RAM_B Inst_Mem(
     .clka(clka),
+    .wea(0),
     .addra(PC[7 : 2]),
     .douta(Inst_code)
   );

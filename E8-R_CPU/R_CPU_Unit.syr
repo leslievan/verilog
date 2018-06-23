@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: R_CPU_Unit.prj
 
@@ -138,14 +138,15 @@ Elaborating module <R_CPU_Unit>.
 Elaborating module <DEBOUNCE>.
 
 Elaborating module <CLK_100Hz>.
-WARNING:HDLCompiler:1016 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Port wea is not connected to this instance
-WARNING:HDLCompiler:1016 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 85: Port rsta is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Port dina is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 86: Port rsta is not connected to this instance
 
 Elaborating module <R_CPU>.
 WARNING:HDLCompiler:1127 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 55: Assignment to shamt ignored, since the identifier is never used
 
 Elaborating module <RAM_B>.
 WARNING:HDLCompiler:1499 - "D:\workplace\verilog\E8-R_CPU\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+WARNING:HDLCompiler:189 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 68: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <PROGRAM_COUNTER>.
 
@@ -154,8 +155,8 @@ Elaborating module <TRANSLATE_CONTROL>.
 Elaborating module <REGISTER_FILES>.
 
 Elaborating module <ALU>.
-WARNING:HDLCompiler:552 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Input port wea[0] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 85: Input port rsta is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Input port dina[31] is not connected on this instance
+WARNING:HDLCompiler:552 - "D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 86: Input port rsta is not connected on this instance
 
 Elaborating module <LED_DISPLAY>.
 WARNING:HDLCompiler:189 - "D:\workplace\verilog\E8-R_CPU\R_CPU_Unit.v" Line 58: Size mismatch in connection of port <LED_DISPLAY_SW_xi>. Formal port size is 3-bit while actual signal size is 4-bit.
@@ -209,7 +210,7 @@ Unit <R_CPU> synthesized.
 Synthesizing Unit <PROGRAM_COUNTER>.
     Related source file is "D:\workplace\verilog\E8-R_CPU\PROGRAM_COUNTER.v".
     Found 32-bit register for signal <douta>.
-    Found 32-bit adder for signal <douta[31]_GND_6_o_add_0_OUT> created at line 39.
+    Found 32-bit adder for signal <douta[31]_GND_6_o_add_0_OUT> created at line 37.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  32 D-type flip-flop(s).
@@ -861,14 +862,14 @@ clkb           |    5.188|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 17.30 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.90 secs
  
 --> 
 
-Total memory usage is 4557916 kilobytes
+Total memory usage is 4557880 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   73 (   0 filtered)
+Number of warnings :   74 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

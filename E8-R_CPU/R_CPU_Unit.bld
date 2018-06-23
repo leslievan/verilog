@@ -16,7 +16,6 @@ Checking Constraint Associations...
 Done...
 
 Checking expanded design ...
-WARNING:NgdBuild:452 - logical net 'RC/Inst_Mem/wea<0>' has no driver
 WARNING:NgdBuild:452 - logical net 'RC/Inst_Mem/dina<31>' has no driver
 WARNING:NgdBuild:452 - logical net 'RC/Inst_Mem/dina<30>' has no driver
 WARNING:NgdBuild:452 - logical net 'RC/Inst_Mem/dina<29>' has no driver
@@ -59,12 +58,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:  33
+  Number of warnings:  32
 
-Total memory usage is 4436148 kilobytes
+Total memory usage is 4436136 kilobytes
 
 Writing NGD file "R_CPU_Unit.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
 
 Writing NGDBUILD log file "R_CPU_Unit.bld"...
