@@ -1,0 +1,36 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/workplace/verilog/E8-R_CPU/R_CPU_T_isim_beh.exe -prj D:/workplace/verilog/E8-R_CPU/R_CPU_T_beh.prj work.R_CPU_T work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/Translate_Control.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/Register_Files.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/PROGRAM_COUNTER.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/ipcore_dir/RAM_B.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/ALU.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/R_CPU.v" into library work
+Analyzing Verilog file "D:/workplace/verilog/E8-R_CPU/R_CPU_T.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 60: Port dina is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 80: Port rsta is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 62: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module RAM_B
+Compiling module PROGRAM_COUNTER
+Compiling module TRANSLATE_CONTROL
+Compiling module REGISTER_FILES
+Compiling module ALU
+Compiling module R_CPU
+Compiling module R_CPU_T
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable D:/workplace/verilog/E8-R_CPU/R_CPU_T_isim_beh.exe
+Fuse Memory Usage: 32600 KB
+Fuse CPU Usage: 624 ms

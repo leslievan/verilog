@@ -69,3 +69,4 @@ map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off R_CPU_Unit_map.ncd R_CPU_Unit.ncd R_CPU_Unit.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml R_CPU_Unit.twx R_CPU_Unit.ncd -o R_CPU_Unit.twr R_CPU_Unit.pcf -ucf R_CPU_Unit_IC.ucf 
 bitgen -intstyle ise -f R_CPU_Unit.ut R_CPU_Unit.ncd 
+xst -intstyle ise -ifn "D:/workplace/verilog/E8-R_CPU/R_CPU_Unit.xst" -ofn "D:/workplace/verilog/E8-R_CPU/R_CPU_Unit.syr" 

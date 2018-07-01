@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Port <arg fmt="%s" index="1">dina</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 60: Port <arg fmt="%s" index="1">dina</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 86: Port <arg fmt="%s" index="1">rsta</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 80: Port <arg fmt="%s" index="1">rsta</arg> is not connected to this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 55: Assignment to <arg fmt="%s" index="1">shamt</arg> ignored, since the identifier is never used
@@ -17,13 +17,13 @@
 <msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\workplace\verilog\E8-R_CPU\ipcore_dir\RAM_B.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">RAM_B</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 68: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wea</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 62: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wea</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="new" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 66: Input port <arg fmt="%s" index="1">dina[31]</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 60: Input port <arg fmt="%s" index="1">dina[31]</arg> is not connected on this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 86: Input port <arg fmt="%s" index="1">rsta</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU.v" Line 80: Input port <arg fmt="%s" index="1">rsta</arg> is not connected on this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\workplace\verilog\E8-R_CPU\R_CPU_Unit.v" Line 58: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">LED_DISPLAY_SW_xi</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.

@@ -5,13 +5,13 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 65: Port <arg fmt="%s" index="1">wea</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 60: Port <arg fmt="%s" index="1">dina</arg> is not connected to this instance
 </msg>
 
-<msg type="error" file="Simulator" num="904" delta="unknown" >Unable to remove previous simulation file <arg fmt="%s" index="1">isim/R_CPU_T_isim_beh.exe.sim/R_CPU_T_isim_beh.exe</arg>. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: <arg fmt="%s" index="2">boost::filesystem::remove: Access is denied: &quot;isim\R_CPU_T_isim_beh.exe.sim\R_CPU_T_isim_beh.exe&quot;</arg>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 80: Port <arg fmt="%s" index="1">rsta</arg> is not connected to this instance
 </msg>
 
-<msg type="error" file="Simulator" num="861" delta="unknown" >Failed to link the design
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/workplace/verilog/E8-R_CPU/R_CPU.v" Line 62: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wea</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
 </messages>
