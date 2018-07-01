@@ -1,0 +1,28 @@
+Command line:
+   Translate_Control_T_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  11604
+
+Sat Jun 23 03:04:26 2018
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5338.89 Meg
+
+ Total Signals          : 24
+ Total Nets             : 39
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 19
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 145
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5338.89 Meg
+
+Sat Jun 23 03:04:31 2018
+
