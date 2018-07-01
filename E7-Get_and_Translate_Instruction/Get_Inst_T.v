@@ -30,14 +30,12 @@ module Get_Inst_T;
 
 	// Outputs
 	wire [31:0] Inst_Code;
-	wire [31:0] PC;
 
 	// Instantiate the Unit Under Test (UUT)
 	GET_INS uut (
 		.Rst(Rst), 
 		.Clk(Clk), 
-		.Inst_Code(Inst_Code), 
-		.PC(PC)
+		.Inst_Code(Inst_Code)
 	);
 
 	initial begin

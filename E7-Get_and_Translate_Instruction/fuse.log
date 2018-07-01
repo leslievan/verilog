@@ -5,11 +5,12 @@ Turning on mult-threading, number of parallel sub-compilation jobs: 16
 Determining compilation order of HDL files
 Analyzing Verilog file "D:/workplace/verilog/E7-Get_and_Translate_Instruction/ipcore_dir/RAM_B.v" into library work
 Analyzing Verilog file "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" into library work
+WARNING:HDLCompiler:370 - "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" Line 25: Empty port in module declaration
 Analyzing Verilog file "D:/workplace/verilog/E7-Get_and_Translate_Instruction/Get_Inst_T.v" into library work
 Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" Line 47: Port dina is not connected to this instance
-WARNING:HDLCompiler:189 - "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" Line 49: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1016 - "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" Line 46: Port dina is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/workplace/verilog/E7-Get_and_Translate_Instruction/GET_INS.v" Line 48: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
 Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
@@ -23,5 +24,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 8 Verilog Units
 Built simulation executable D:/workplace/verilog/E7-Get_and_Translate_Instruction/Get_Inst_T_isim_beh.exe
-Fuse Memory Usage: 32684 KB
-Fuse CPU Usage: 436 ms
+Fuse Memory Usage: 32532 KB
+Fuse CPU Usage: 499 ms
