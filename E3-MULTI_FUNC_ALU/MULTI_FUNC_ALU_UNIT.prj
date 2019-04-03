@@ -1,4 +1,0 @@
-verilog work "SELECTOR.v"
-verilog work "MULTI_FUNC_ALU.v"
-verilog work "LED_DISPLAY.v"
-verilog work "MULTI_FUNC_ALU_UNIT.v"

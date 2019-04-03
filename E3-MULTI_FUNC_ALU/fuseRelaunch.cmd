@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E3-MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT_T_isim_beh.exe" -prj "D:/workplace/verilog/E3-MULTI_FUNC_ALU/MULTI_FUNC_ALU_UNIT_T_beh.prj" "work.MULTI_FUNC_ALU_UNIT_T" "work.glbl" 
