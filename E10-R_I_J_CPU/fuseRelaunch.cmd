@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E10-R_I_J_CPU/R_I_J_CPU_T_isim_beh.exe" -prj "D:/workplace/verilog/E10-R_I_J_CPU/R_I_J_CPU_T_beh.prj" "work.R_I_J_CPU_T" "work.glbl" 

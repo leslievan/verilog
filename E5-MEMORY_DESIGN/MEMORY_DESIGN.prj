@@ -1,4 +1,0 @@
-verilog work "Clk_100Hz.v"
-verilog work "ipcore_dir/RAM_B.v"
-verilog work "DEBOUNCE.v"
-verilog work "MEMORY_DESIGN.v"

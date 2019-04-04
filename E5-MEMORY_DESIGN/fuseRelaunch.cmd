@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E5-MEMORY_DESIGN/Memory_Design_T_isim_beh.exe" -prj "D:/workplace/verilog/E5-MEMORY_DESIGN/Memory_Design_T_beh.prj" "work.Memory_Design_T" "work.glbl" 

@@ -1,5 +1,0 @@
-NET "FA_A" LOC="T10"
-NET "FA_B" LOC="T9"
-NET "FA_C_0" LOC="V9"
-NET "FA_F" LOC="U16"
-NET "FA_C_1" LOC="V16"

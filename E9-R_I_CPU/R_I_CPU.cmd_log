@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.xst" -ofn "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.syr" 
-xst -intstyle ise -ifn "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.xst" -ofn "D:/workplace/verilog/E9-R_I_CPU/R_I_CPU.syr" 

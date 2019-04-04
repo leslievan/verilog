@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E2-AHEAD_ADDER/Ahead_Adder_T_isim_beh.exe" -prj "D:/workplace/verilog/E2-AHEAD_ADDER/Ahead_Adder_T_beh.prj" "work.Ahead_Adder_T" "work.glbl" 

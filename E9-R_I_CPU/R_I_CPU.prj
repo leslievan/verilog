@@ -1,6 +1,0 @@
-verilog work "Translate_Control.v"
-verilog work "Register_Files.v"
-verilog work "Program_Counter.v"
-verilog work "ipcore_dir/RAM_B.v"
-verilog work "ALU.v"
-verilog work "R_I_CPU.v"

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/workplace/verilog/E7-Get_and_Translate_Instruction/Get_Inst_T_isim_beh.exe" -prj "D:/workplace/verilog/E7-Get_and_Translate_Instruction/Get_Inst_T_beh.prj" "work.Get_Inst_T" "work.glbl" 
